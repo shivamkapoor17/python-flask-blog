@@ -1,0 +1,15 @@
+{
+  "params" :
+  { "sqlalchemy_uri" : "mysql://root:@localhost/kapoor",
+    "blog_name" : "Code Champs",
+    "blog_tagline" : "It is a place for Programmers",
+    "fb_url" : "http://facebook.com/codechamps",
+    "tw_url" : "http://twitter.com/codechamps",
+    "git_url" : "http://github.com/codechamps",
+    "no_of_post" : 3,
+    "admin_user" : "admin",
+     "admin_pass" : "password",
+    "UPLOAD_FOLDER" : "C:/Users/shivam/uploaded"
+
+}
+}

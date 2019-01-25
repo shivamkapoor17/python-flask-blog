@@ -1,0 +1,30 @@
+{% extends "main.html" %}
+{% block head %}
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('{{url_for('static',filename='img/about-bg.jpg')}}')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="page-heading">
+              <h1>About Me</h1>
+              <span class="subheading">This is what I do.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>My name is Shivam Kapoor the Admin and the developer of this website. I am learning web development through python and flask thats why i made this website so that i can impliment what i learnt in python-flask</p>
+          <p>I have used various extensions of flask like flask-sqlalchemy, flask-migrate, flask-mail, werkzeug and various other modules like json, os, math, etc</p>
+          <p></p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+{% endblock %}
